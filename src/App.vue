@@ -8,7 +8,7 @@
       <div class="list">
         <Task v-for="(task, index) in tasks" :key="index" :task="task" />
         <Box v-if="emptyList">
-          Lista de tarefas vázia, adicione uma nova Tarefa para continuar.
+          Lista de tarefas vázia, adicione uma nova Tarefa para continuar
         </Box>
       </div>
     </div>
